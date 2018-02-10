@@ -182,6 +182,7 @@ public class ContextMenuActivity extends AppCompatActivity implements OnMenuItem
             case 2:
                 break;
             case 3:
+//                startActivity(new Intent(ContextMenuActivity.this,SearchFilterActivity.class));
                 break;
             case 4:
                 startActivity(new Intent(ContextMenuActivity.this,BubblePickerActivity.class));

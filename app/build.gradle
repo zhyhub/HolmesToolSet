@@ -8,7 +8,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.zhy.holmestoolset"
-        minSdkVersion 17
+        minSdkVersion 18
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -20,6 +20,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
 }
 
 configurations.all {
@@ -36,16 +37,16 @@ configurations.all {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.android.support:support-v4:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation project(':ContextMenu')
-
     compile 'com.github.yalantis:Side-Menu.Android:1.0.1'
     compile 'com.github.ozodrukh:CircularReveal:1.0.4@aar'
     compile 'com.github.yalantis:jellytoolbar:v1.0'
     compile 'com.github.yalantis:todolist:v1.0.1'
     compile 'com.github.igalata:Bubble-Picker:v0.2.4'
+    compile 'com.github.Yalantis:SearchFilter:v1.0.4'
+    compile 'com.facebook.fresco:fresco:0.13.0'
 }

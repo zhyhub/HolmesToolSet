@@ -1,1 +1,1 @@
-include ':app', ':ContextMenu'
+include ':app', ':ContextMenu', ':filter'

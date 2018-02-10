@@ -20,6 +20,10 @@
         <activity android:name=".ContextMenuActivity" />
         <activity android:name=".JellyActivity" />
         <activity android:name=".BubblePickerActivity" />
+        <!--
+        还有没有解决的依赖问题
+        <activity android:name=".SearchFilterActivity" />
+        -->
 
     </application>
 

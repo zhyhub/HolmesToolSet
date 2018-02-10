@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ContextMenu/ContextMenu.iml" filepath="$PROJECT_DIR$/ContextMenu/ContextMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/HolmesToolSet.iml" filepath="$PROJECT_DIR$/HolmesToolSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filter/filter.iml" filepath="$PROJECT_DIR$/filter/filter.iml" />
     </modules>
   </component>
 </project>
